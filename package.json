@@ -1,0 +1,23 @@
+{
+  "name": "news_application",
+  "version": "1.0.0",
+  "description": "NEWS APPLICATION",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NESW",
+    "APP"
+  ],
+  "author": "ADAM HAGOOD",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "mustache-express": "^1.3.0",
+    "pg-promise": "^9.2.1"
+  }
+}
