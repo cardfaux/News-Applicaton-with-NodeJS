@@ -12,7 +12,7 @@ const userRoutes = require('./routes/users');
 const indexRoutes = require('./routes/index');
 
 
-const PORT = 3000;
+const PORT = process.env.Port || 8080;
 const CONNECTION_STRING = {
   host: 'localhost',
   port: 5433,
