@@ -21,7 +21,9 @@ const PORT = process.env.PORT || 8080;
 //   password: 'Fsuore1234#',
 // };
 
-const CONNECTION_STRING = "postgres://cnpzybxoaiznvr:00a900b82d7702a4004e6cf6f2b73974bef64b5efcc6501f8a7f539c89571b5c@ec2-107-20-185-16.compute-1.amazonaws.com:5432/dddc5hcko0rtb2"
+//const CONNECTION_STRING = "postgres://cnpzybxoaiznvr:00a900b82d7702a4004e6cf6f2b73974bef64b5efcc6501f8a7f539c89571b5c@ec2-107-20-185-16.compute-1.amazonaws.com:5432/dddc5hcko0rtb2"
+
+const CONNECTION_STRING =  	"postgres://kvgjbkac:OXsCvQJbS6zUfBfOWOF2xFlQcGEnlM08@salt.db.elephantsql.com:5432/kvgjbkac";
 
 const VIEWS_PATH = path.join(__dirname, '/views');
 
