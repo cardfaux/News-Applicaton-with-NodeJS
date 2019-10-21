@@ -19,7 +19,7 @@ router.post('/add-article', (req, res) => {
   
     db.none('INSERT INTO articles(title,body,userid) VALUES($1,$2,$3)', [title, description, userid])
     .then(() => {
-      res.send('SUCCESS!!');
+      res.redirect('/users/articles');
     });
   });
 
